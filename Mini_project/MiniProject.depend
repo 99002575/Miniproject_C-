@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1601805527 source:e:\narsimhaswamy\miniproject\actual.cpp
+	"Actual.h"
+
+1601805226 e:\narsimhaswamy\miniproject\actual.h
+	<iostream>
+
+1602419469 source:e:\narsimhaswamy\miniproject\comparision.cpp
+	"comparision.h"
+	"Actual.h"
+	"Expected.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<vector>
+
+1602419427 e:\narsimhaswamy\miniproject\comparision.h
+	"completedata.h"
+	<list>
+	<iterator>
+
+1601806008 e:\narsimhaswamy\miniproject\completedata.h
+	"Expected.h"
+	"Actual.h"
+
+1601805241 e:\narsimhaswamy\miniproject\expected.h
+	<iostream>
+
+1601805037 source:e:\narsimhaswamy\miniproject\expected.cpp
+	"Expected.h"
+
+1601811797 source:e:\narsimhaswamy\miniproject\completedata.cpp
+	"completedata.h"
+
+1601818880 source:e:\narsimhaswamy\miniproject\test.cpp
+	"gtest/gtest.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<vector>
+	"comparision.h"
+
+1602419367 source:e:\narsimhaswamy\miniproject\test_f.cpp
+	"gtest/gtest.h"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+	<vector>
+	"comparision.h"
+	"Actual.h"
+	"Expected.h"
+
