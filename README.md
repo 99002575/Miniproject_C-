@@ -5,3 +5,5 @@
 ![cppcheck-action](https://github.com/99002575/Miniproject_Cpp/workflows/cppcheck-action/badge.svg)
 
 ![Unit testing](https://github.com/99002575/Miniproject_Cpp/workflows/Unit%20testing/badge.svg?branch=master)
+
+![C/C++ CI](https://github.com/99002575/Miniproject_Cpp/workflows/C/C++%20CI/badge.svg)
