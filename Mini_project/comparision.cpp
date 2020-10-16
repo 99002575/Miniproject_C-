@@ -17,7 +17,7 @@ double comparision::MaxThermal(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getThermal_A();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -35,7 +35,7 @@ double comparision::MaxNuclear(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getNuclear_A();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -53,7 +53,7 @@ double comparision::MaxHydro(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getHydro_A();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -71,7 +71,7 @@ double comparision::MinThermal(){
      std::list<complete> :: iterator it = data.begin();
 
     double Min = it-> getThermal_A();
-        it++;
+        it=it+1;
 
     for(;it!=data.end();++it)
      {
@@ -89,7 +89,7 @@ double comparision::MinNuclear(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Min = iter-> getNuclear_A();
-        iter++;
+       iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -107,7 +107,7 @@ double comparision::MinHydro(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Min = iter-> getHydro_A();
-        iter++;
+       iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -125,7 +125,7 @@ double comparision::MaxThermal_E(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getThermal();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -143,7 +143,7 @@ double comparision::MaxNuclear_E(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getNuclear();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -161,7 +161,7 @@ double comparision::MaxHydro_E(){
      std::list<complete> :: iterator iter = data.begin();
 
     double Max = iter-> getHydro();
-        iter++;
+        iter=iter+1;
 
     for(;iter!=data.end();++iter)
      {
@@ -179,7 +179,7 @@ double comparision::MinThermal_E(){
      std::list<complete> :: iterator it = data.begin();
 
     double Min = it-> getThermal();
-        it++;
+        it=it+1;
 
     for(;it!=data.end();++it)
      {
@@ -197,7 +197,7 @@ double comparision::MinNuclear_E(){
      std::list<complete> :: iterator it = data.begin();
 
     double Min = it-> getNuclear();
-        it++;
+        it=it+1;
 
     for(;it!=data.end();++it)
      {
@@ -215,7 +215,7 @@ double comparision::MinHydro_E(){
      std::list<complete> :: iterator it = data.begin();
 
     double Min = it-> getHydro();
-        it++;
+        it=it+1;
 
     for(;it!=data.end();++it)
      {
