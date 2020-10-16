@@ -215,7 +215,7 @@ double comparision::MinHydro_E(){
      std::list<complete> :: iterator it = data.begin();
 
     double Min = it-> getHydro();
-        it=it+1;
+        it+=1;
 
     for(;it!=data.end();++it)
      {
