@@ -233,7 +233,7 @@ int comparision::avgpower_E(){
    double Nu = MaxNuclear_E();
    double Hy = MaxHydro_E();
    int avg;
-   if(Th>0&&Nu>0&&Hy>0){
+   if(Th>=0&&Nu>=0&&Hy>=0){
       avg = ((Th+Nu+Hy)/3);
    }
    else{
@@ -247,7 +247,7 @@ int comparision::avgpower_A(){
    double Nu = MaxNuclear();
    double Hy = MaxHydro();
    int avg;
-   if(Th>0&&Nu>0&&Hy>0){
+   if(Th>=0&&Nu>=0&&Hy>=0){
       avg = ((Th+Nu+Hy)/3);
    }
    else{
